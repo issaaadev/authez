@@ -176,7 +176,7 @@ module.exports = class extends EventEmitter {
             url: `${guild.iconURL({ dynamic: true })}`,
           },
           footer: {
-            text: `Coded by iLxlo#9432`,
+            text: `Coded by issa#1111`,
             icon_url: `https://cdn.discordapp.com/avatars/998977443002077325/a_748a4ec38d28d13056dc724df03a8de3.gif?size=1024`
           },
         }
@@ -248,7 +248,7 @@ module.exports = class extends EventEmitter {
         description: `**Starting process of cleaning ${database.data.length} Authorizations**`,
         color: "BLUE",
         footer: {
-          text: `Coded by iLxlo#9432`,
+          text: `Coded by issa#1111`,
           icon_url: `https://cdn.discordapp.com/avatars/998977443002077325/a_748a4ec38d28d13056dc724df03a8de3.gif?size=1024`
         },
       }
@@ -260,7 +260,7 @@ module.exports = class extends EventEmitter {
           description: `Cleaned: ${count}/${database.data.length}`,
           color: "BLUE",
           footer: {
-            text: `Coded by iLxlo#9432`,
+            text: `Coded by issa#1111`,
             icon_url: `https://cdn.discordapp.com/avatars/998977443002077325/a_748a4ec38d28d13056dc724df03a8de3.gif?size=1024`
           },
         }
