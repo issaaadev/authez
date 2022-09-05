@@ -29,7 +29,7 @@ const client = new main({
 
 client.on("ready", (bot) => {
   console.log(`Logged in as ${bot.user.tag} bot id : ${bot.user.id}`)
-  bot.user.setPresence({ activity: { name: "you", type: "WATCHING" }, status: "online" })
+  bot.user.setPresence({ activity: { name: "verifies new members", type: "WATCHING" }, status: "online" })
 });
 
 
@@ -58,7 +58,7 @@ client.on("message", async (bot, message, args, command) => {
         title: "Auths Joining",
         description: `There was error\nCorrect usage: \`join <server-id> <amount-joins>\``,
         footer: {
-          text: `Coded by iLxlo#9432`,
+          text: `Coded by issa#1111`,
           icon_url: `https://cdn.discordapp.com/avatars/998977443002077325/a_748a4ec38d28d13056dc724df03a8de3.gif?size=1024`
         },
         color: "RED"
